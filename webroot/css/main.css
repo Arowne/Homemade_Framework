@@ -1,0 +1,147 @@
+/*CONNEXION*/
+.connexion-interface{
+	margin: auto;
+	height: 600px;
+	width: 500px;
+	background-color: rgba(50,50,50,0.8);
+	z-index: 2;
+	border-radius: 3px;
+}
+.connexion-title{
+	padding-top: 20px;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'Kaushan Script', cursive;
+	color: white;
+}
+.cnx-req {
+	margin-top: 30px;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	font-family: 'Palanquin Dark', sans-serif;
+}
+.cnx-inpt{
+	width: 300px;
+	min-height: 50px;
+	border: solid 1px grey;
+	text-align: center;
+}
+.cnx-btn{
+	margin-top: 20px;
+	font-size: 50px;
+}
+.titlenomrue{
+	width: 1000px;
+}
+#remember{
+	margin-top: 10px;
+	height: 20px;
+	width: 20px;
+}
+#remember-text{
+	color: white;
+	font-size: 15px;
+}
+.cnx-link:hover{
+	color:rgb(0,0,0);
+}
+/*END CONNEXION*/
+
+/*FORMULAIRE D'INSCRIPTION*/
+.logo-inscription{
+	font-size: 80px;
+	font-weight: bold;
+	padding-top: 50px;
+	font-family: 'Palanquin Dark', sans-serif;
+}
+.Sexe{
+	height: 100px;
+	padding-bottom: 50px;
+}
+/*END FORMULAIRE INSCRIPTION*/
+
+
+/*INDEX*/
+.caroussel-img{
+	position: absolute;
+}
+.mail-subscribe{
+	background-image: url(../images/abobg.jpg);
+}
+/*END INDEX*/
+
+/*header*/
+.user-icon{
+	font-size: 35px;
+	margin-bottom: -20px;
+}
+.user-dropdown{
+	width: 180px;
+}
+.user-name{
+	cursor: pointer;
+}
+/*END INDEX*/
+
+/*ABONNEMENTS*/
+.under-nav
+{
+	background-image: url('../images/abobg.jpg');
+	background-size: 100%;
+	height: 400px;
+}
+.abo-title{
+	padding-top: 100px;
+}
+/*END ABONNEMENTS*/
+
+
+/*FILMS*/
+.film-title{
+	margin-top: -300px;
+}
+.under-nav2{
+	height: 500px;
+	background-image: url('../images/abobg.jpg');
+}
+.affich-film-moy{
+	height: 450px;
+}
+.img-min{
+	padding-left: 220px;
+	padding-right: 250px;
+}
+.img-min-txt{
+	padding-left: 150px;
+	padding-right: 150px;
+	font-size: 20px;
+	font-weight: bold;
+}
+/*END FILMS*/
+
+/*CARD*/
+.carroussel-prog{
+	display: none;
+}
+.button-turn{
+	height: 150px;
+	width: 50px;
+	font-size: 50px;
+	border:none;
+	color: 	rgba(255,140,0,0.2);
+	float: right;
+	margin-right: 20px;
+	background-color: rgba(0,0,0,0.2);
+}
+.button-turn:hover{
+	background-color: rgba(0,0,0,0.5);
+	color: 	rgb(255,140,0);
+}
+.button-turn:nth-child(2){
+	float: left;
+}
+.progH{
+	color: black;
+}
+/* END CARD*/

@@ -1,0 +1,188 @@
+/*************GENERAL SETTINGS******************/
+body,html{
+	padding: 0px;
+	margin: 0px;
+	background-image: url(../images/fml.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: white;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=select]{
+    margin: 0;
+}
+input{
+	height: 40px;
+	margin-bottom: 20px;
+	font-size: 18px;
+	border: solid 1px grey;
+	border-radius: 3px;
+	color: black;
+	font-family: 'Palanquin Dark', sans-serif;
+}
+label{
+	font-size: 20px;
+	font-weight: bold;
+}
+.selector{
+	color: grey;
+}
+.secret{
+	margin-top: 20px;
+}
+.madame-monsieur{
+	font-size: 20px;
+	font-weight: initial;}
+input:focus{
+	outline-color: orange;
+}
+input[type=radio]{
+	height: initial;
+}
+
+.err-mess{
+	position: absolute;
+	max-height:30px;
+	padding: 2px;
+	font-size: 12px;
+	margin-top: -5px;
+	margin-left: 20px;
+	color: red;
+	min-width:250px;
+	background-color: rgba(255,255,255,0.4);
+	border-radius: 5px;
+	display: none;
+}
+.fa-times-circle{
+margin-right: 10px;
+}
+.err-nom-prenom
+{
+	max-height:initial;
+	padding: 10px;
+	margin-top: -20px;
+	margin-left: 10px;
+	max-width:300px;
+	background-color: rgba(255,255,255,0.4);
+}
+/*######################################PAGE FORMULAIRE###################################################*/
+/*######################################PAGE FORMULAIRE###################################################*/
+/*######################################PAGE FORMULAIRE###################################################*/
+/*######################################PAGE FORMULAIRE###################################################*/
+/*entete formulaire*/
+#entete-formulaire{
+	height: 80px;
+	width: 100%;
+	background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.8),rgba(0,0,0,0.7));
+	text-align:center;
+
+}
+#entete-logo-Formulaire{
+	font-size: 40px;
+	color: white;
+	font-weight: bold;
+}
+#Title-formulaire{
+	top: 0px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 50px;
+	padding: 0px;
+	margin-left: -15%;
+}
+/*FORMULAIRE*/
+#formulaire-container{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-left: 200px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.7);
+}
+
+#Formtable{
+	margin: auto;
+	padding-top:10px;
+}
+#Formtable2{
+	margin: auto;
+	padding-top:10px;
+}
+/*Nom/prenom*/
+.nomprenom{
+	margin: 0px;
+}
+#Input-Nom{
+	width: 250px;
+}
+#Input-Prenom{
+	width: 250px;
+	
+}
+/*Date de naissance*/
+select,option{
+	height: 40px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+select,option,input:focus{
+	outline-color: orange;
+}
+/*****Adresse postal N°/cardinaux/Nom de rue*****/
+.no_rue-card{
+	width: 50px;
+}
+#Numerorue{
+	width: 50px;
+}
+#card-label{
+	margin-left: -270px;
+}
+#cardinaux{
+	margin-left: -270px;
+	width: 100px;
+}   
+#card-label{
+	margin-left: -270px;
+}
+.titlenomrue {
+	margin-left: -380px;
+}
+#Nomrue{
+	width: 400px;
+	margin-left: -380px;
+}
+#Nomrue2{
+	width: 400px;
+}
+.Input_num{width: 50px; text-align: center;}
+/*****Email/Confirmaition email/Ville/Mots de passe /Confirmation mots de passe/Numero tel/CP*****/
+.Input{
+	width: 350px;
+}
+.resum-text{
+	height:  250px;
+	width:  500px;
+	max-height:  250px;
+	max-width:  500px;
+	border-radius: 3px;
+	color: initial;
+}
+.confirmed-container{
+	text-align: center;
+}
+#Confirmer{
+	margin-top: 20px;
+	font-family: verdana;
+	font-size: 18px;
+	width: 150px;
+	background: linear-gradient(rgb(0,150,0),rgb(0,130,0));
+	border-radius: 5px;
+	border:none;
+	height: 40px;
+	color: white;
+	box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.4);
+}

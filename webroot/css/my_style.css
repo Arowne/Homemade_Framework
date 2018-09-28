@@ -1,0 +1,338 @@
+/*GENERAL SETTING*/
+option{
+	background-color: white;
+}
+.search-panel{
+	position: absolute;
+	top:80px;
+	left: 250px;
+	min-height: 100px;
+	height: 150px;
+	width: 1200px;
+	background-color: rgba(120,120,120,0.5);
+	padding: 50px;
+}
+.uni-search{
+	border-radius: 3px;
+}
+.search-bar{
+	border-top-left-radius: 3px;
+ 	border-bottom-left-radius: 3px;
+	border: solid 1px rgb(240,240,240);
+}
+.btn-search{
+	position: absolute;
+ 	border: 0.2px;
+ 	height: 29px;
+ 	width: 32px;
+ 	border-radius: 3px;
+ }
+ a,a:hover,a:active,a:visited{
+ 	text-decoration: none;
+ 	color: inherit;
+ }
+/*HEADER ADMIN*/
+html,body{
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+.header-admin{
+	height: 80px;
+	width: 100%;
+	background-color: rgb(40,40,40);
+}
+.logo-page{
+	position: absolute;
+	font-size: 30px;
+	margin-left: 80px;
+	margin-top: 30px;
+	color: white;
+}
+.user-account{
+	float: right;
+	margin-top: 20px;
+	font-size: 20px;
+	margin-right: 150px;
+	color: grey;
+	font-weight: bold;
+}
+.profil-image{
+	height: 40px;
+	width: 40px;
+	margin-right: 50px;
+	margin-top: 5px;
+}
+
+/*SIDE BAR ADMIN */
+.side-bar-admin{
+	top: 80px;
+	height: 1150px;
+	width: 250px;
+	background-color: rgb(200,200,200);
+}
+.side-bar-liste{
+	padding: 0px;
+	margin: 0px;
+}
+.side-bar-content{
+	list-style: none;
+	width: 100%;
+	height: 60px;
+	padding-top: 20px;
+	text-align: center;
+	color:white;
+	cursor: pointer;
+	font-size: 20px;
+}
+.side-bar-content:hover{
+	background-color: rgb(40,40,40);
+}
+.fas{
+	margin-right: 10px;
+}
+/*Home panel*/
+
+.home-image-holder{
+	position: absolute; 
+	top: 0px; 
+	margin-left: 50%; 
+	margin-top: 15%;
+}
+/*Film panel*/
+.film-search-container{
+	margin-left: 100px;
+}
+.film-search-input{
+	height: 30px;
+}
+.film-search-selector{
+	margin-right: 20px;
+	border-radius: 3px;
+	max-width: 100px;
+}
+.film-search-selector:nth-child(2){
+	margin-left: 20px;
+}
+.film-search{
+	border-radius: 3px;
+	width: 500px;
+	height: 30px;
+	border:none;
+}
+.film-search-btn{
+	margin-top: 20px;
+	width: 720px;
+	border:none;
+	border-radius: 3px;
+}
+.film-result-container{
+	background-color: transparent;
+	margin-top: 25px;
+	margin-left: -50px;
+	width: 100%;
+	height: 100%;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.film-card-box{
+	position: relative;
+	height:	200px;
+	width: 100%;
+	border: solid 1px grey;
+	background-color: green;
+}
+.film-card{
+	border: solid 1px rgb(240,240,240);
+}
+.film-title{
+	margin-top: 20px;
+	text-align: center;
+	color: black;
+}
+.pagination-holder{
+	padding-top: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.choose-page{
+	float: right;
+	margin-top: -20px;
+	width: 50px;
+}
+.pagin-num{
+	padding: 2px;
+	border:solid 1px grey;
+	border-radius: 3px;
+}
+.pagin-num:hover{
+	background-color: black;
+	border:solid 1px grey;
+	color: white;
+	cursor: pointer;
+}
+.p-active{
+	padding: 2px;
+	border-radius: 3px;
+	background-color: black;
+	border: none;
+	cursor: initial;
+	color: white;
+	font-weight: bold;
+	font-size:20px;
+}
+.p-dot{
+	font-weight: bold;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+/*Membre panel*/
+.delete-info{
+	height: 150px;
+	padding-top: 50px;
+	margin-top: 50px;
+	margin-left: -50px;
+	font-size: 20px;
+	text-align: center;
+}
+#del-user-exc{
+	position: absolute;
+	font-size: 50px;
+	margin-left: -65px;
+	margin-top: -10px;
+}
+.del-user{
+	float: right;
+	font-size: 35px;
+	margin-top: -50px;
+	color: rgb(200,200,200);
+	cursor: pointer;
+}
+.del-user:hover{
+	color: red;
+}
+.name-search{
+	width: 500px;
+	margin-left:250px;
+}
+.membre-card:hover{
+	cursor:pointer;
+	background-position-x: -50px;
+	background-repeat: no-repeat;
+	box-shadow: 1px 1px 1px 1px grey;
+}
+.small{
+	font-size: 25px;
+}
+.membre-card:active{
+	background-image: url('https://www.ledr.com/colours/grey.jpg');
+}
+/*MEMBRE CARD PAGE*/
+.user-info-holder{
+	position: absolute;
+	top: 100px;
+	height: 500px;
+	width:1100px;
+	left: 250px;
+}
+.user-pic{
+	margin-left: 50px;
+}
+#membre-card-name{
+	position: absolute;
+	margin-top:  -120px;
+	margin-left: 300px;
+	font-size: 45px;
+}
+.membre-card-abo{
+	margin-top: 20px;
+	margin-left: 400px;
+	width: 250px;
+	height: 50px;
+	font-size: 20px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.4);
+}
+.btn-add-film{
+	right: 0px;
+}
+.historique-table{
+	height: 700px;
+	margin: 100px auto;
+	overflow-y: scroll;
+	border:solid 1px grey;
+}
+.head-hist-div{
+	width: 20%;
+	height: 80px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	border-right: solid 1px grey;
+	padding-top: 20px;
+}
+.content-hist-div{
+	padding-top: 20px;
+	width: 20%;
+	min-height: 100px;
+	text-align: center;
+	background-color: rgb(255,255,255);
+	border-right: solid 1px grey;
+	border-bottom:solid 1px grey;
+}
+#cht1{
+	font-weight: bold;
+}
+.select-opt{
+	background-color:rgba(55,55,55,0.4);
+}
+#add-titre-film{
+	margin-bottom: 20px;
+}
+#heure-vue{
+	height: 50px;
+	font-size: 25px;
+	margin-bottom: 10px;
+	padding-left: 2px;
+	border-radius: 5px;
+	border: solid 1px rgb(180,180,180);
+}
+.film-not-found{
+	margin: auto;
+	padding-top: 25px;
+	font-size: 20px;
+	text-align: center;
+	padding-left: 150px;
+	height: 100px;
+	border-radius: 11px;
+	width: 80%;
+}
+.avis-container{
+	margin: auto;
+	height: 300px;
+	width: 500px;
+	text-align: center;
+}
+.avis-titre-film{
+	padding: 10px;
+	border:solid 3px black ;
+	border-radius: 5px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.add-avis-film{
+	width: 100%;
+	height: 300px;
+	min-height: 300px;
+	max-height: 300px;
+}
+.btn-membre-card{
+	margin: 200px auto;
+	width: 700px;
+}
+/*PANEL RECHERCHE PAR DATE*/
+.date-search{
+	width: 700px;
+	text-align: center;
+	font-size: 30px;
+}

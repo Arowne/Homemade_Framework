@@ -1,0 +1,11 @@
+.profil-box{
+  cursor: pointer;
+}
+.text-logo{
+  font-weight: bold;
+  color: black;
+  font-size: 40px;
+}
+.text-logo:hover{
+  color: black;
+}

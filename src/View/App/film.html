@@ -1,0 +1,74 @@
+{% require_once($nav) %}
+<aside id="colorlib-hero">
+  <div class="flexslider">
+    <ul class="slides under-nav2">
+        <li>
+          <img src="./webroot/assets/images/abobg.jpg" class='caroussel-img'>
+          <div class="overlay"></div>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-6 col-sm-12 col-md-offset-3 slider-text">
+                <div class="slider-text-inner slider-text-inner2 text-center">
+                  <h1 class="film-title">LES FILMS</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    <div id="colorlib-reservation">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 search-wrap">
+            <form method="get" action="Films" class="colorlib-form">
+			              	<div class="row">
+				               	<div class="col-md-9">
+				                  <div class="form-group">
+				                    <label for="date">Recherche:</label>
+				                    <div class="form-field">
+				                      <i class="icon fas fa-film"></i>
+				                      <input type="text" name="q" id="date" class="form-control" placeholder="Titre du film rechercher ... " value="<?php if (isset($_GET['q'])){ echo $_GET['q'];} ?>">
+				                    </div>
+				                  </div>
+				                </div>
+				                <div class="col-md-3">
+				                  <input type="submit" class="btn btn-primary btn-block" value="Rechercher">
+				                </div>
+			              </div>
+			       </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+</aside>
+
+<div id="colorlib-amenities">
+  <div class="container">
+     @isset($searchFilms)
+        @foreach($searchFilms as $film)
+        <div class="row">
+          <div class="amenities-flex">
+            @if(file_exists("./webroot/assets/affich/moy/{{$film->id_film}}.png"))
+              <img src="./webroot/assets/affich/moy/{{$film->id_film}}.png" class="affich-film-moy amenities-img animate-box">
+            @else
+              <img src="./webroot/assets/affich/{{$film->id_film}}.png" class="affich-film-moy amenities-img animate-box">
+            @endif
+              <div class="desc animate-box">
+                <h2>{{$film->titre}}</h2>
+                <p>{{$film->resum}}</p>
+                <p><a  href="/PiePHP/Films/Details?f={{$film->id_film}}" class="btn btn-primary btn-book">Voir</a></p>
+              </div>
+          </div>
+        </div>
+        @endforeach
+      @endisset
+
+    @isset($_GET['q'])
+      @empty($searchFilms)
+        {{'No result'}}
+      @endempty
+    @endisset
+
+  </div>
+</div>

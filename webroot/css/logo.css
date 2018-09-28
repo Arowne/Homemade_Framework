@@ -1,0 +1,11 @@
+#text-logo {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+}
+.logo{
+  text-align: center;
+}
